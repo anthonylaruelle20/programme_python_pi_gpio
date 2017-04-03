@@ -7,7 +7,7 @@ GPIO.setmode(GPIO.BCM)
 bleu=17
 vert=27
 rouge=22
-bouton=5
+bouton=4
 
 GPIO.setwarnings(False)
 GPIO.setup(bouton, GPIO.IN)
